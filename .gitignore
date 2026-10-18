@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+dist/
+build/
+
+# Local toolchain pin (asdf plugin names differ per machine)
+.tool-versions
+
+# Never commit credentials, sessions or downloaded course material
+.uned-mcp/
+token.json
+session.json
+.env
+.env.*
+!.env.example
+UNED/
+*.ics
+*.sqlite
+
+# Logs
+*.log
+
+# Editors and OS
+.idea/
+.vs/
+.vscode/
+.DS_Store
+Thumbs.db
